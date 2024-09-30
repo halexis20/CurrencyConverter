@@ -5,7 +5,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class CurrencyConverterService {
-    private static final String API_KEY = "249bfd391c02ff41d088bf44";
+    private static final String API_KEY = "YOUR_API_KEY";
     private static final String API_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/pair/";
 
     // Método que realiza la llamada a la API y retorna la tasa de cambio
